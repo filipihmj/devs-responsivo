@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Cabin Sketch", sans-serif;
     text-align: center;
     margin-bottom: 0;
@@ -25,18 +25,21 @@ h3{
 
 blockquote{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #img-dep{
-    padding-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 1em #548cc3;
 }
 
 .intro{
     background-image: url(img/fundo1.png);
 }
 
-.tecno{
+.info{
     background-image: url(img/fundo2.jpg);
 }
 
@@ -61,5 +64,9 @@ blockquote{
 }
 
 #cor-texto{
-    color: #3A5FCD;
+    color: #548cc3;
+}
+
+.blockquote-footer{
+    color: #548cc3;
 }
