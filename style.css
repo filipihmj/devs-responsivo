@@ -20,7 +20,9 @@ header{
 #logo{
     margin-left: -5px;
 }
-
+#h1-principal{
+    padding-top: 70px;
+}
 h1{
     padding: 10px;
     font-size: 20px;
@@ -80,6 +82,10 @@ blockquote{
     background-image: url(img/fundo4.jpg);
 }
 
+.social{
+    background-image: url(img/fundo3.png);
+}
+
 .rodape{
     background-color: #333;  
     padding-top: 10px;
@@ -112,4 +118,12 @@ blockquote{
 
 .imagens{
     padding-bottom: 20px;
+}
+
+.img-social{
+    text-align: center;
+}
+.img-social img{
+    padding-bottom: 20px;
+    margin-top: -5px;
 }
