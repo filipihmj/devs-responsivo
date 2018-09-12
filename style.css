@@ -1,0 +1,65 @@
+body{
+    color: #FFF;
+}
+
+.cabecalho{
+    background-color: #000;
+}
+
+h1{
+    font-size: 22px;
+    font-family: "Cabin Sketch", sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 16px;
+    font-family: "Cabin Sketch", sans-serif;
+    text-align: center;
+}
+h3{
+    font-size: 12px;
+    font-family: "Cabin Sketch", sans-serif;
+    text-align: center;
+}
+
+blockquote{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#img-dep{
+    padding-top: 20px;
+}
+
+.intro{
+    background-image: url(img/fundo1.png);
+}
+
+.tecno{
+    background-image: url(img/fundo2.jpg);
+}
+
+.motivo{
+    background-image: url(img/fundo3.png);
+}
+
+.galeria{
+    background-image: url(img/fundo5.jpg);
+}
+
+.benef{
+    background-image: url(img/fundo6.jpg);
+}
+
+.depo{
+    background-image: url(img/fundo4.jpg);
+}
+
+.depo-fundo{
+    background-image: url(img/fundo4.jpg);
+}
+
+#cor-texto{
+    color: #3A5FCD;
+}
