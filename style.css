@@ -43,6 +43,10 @@ blockquote{
     background-image: url(img/fundo2.jpg);
 }
 
+.info-fundo{
+    
+}
+
 .motivo{
     background-image: url(img/fundo3.png);
 }
@@ -56,10 +60,6 @@ blockquote{
 }
 
 .depo{
-    background-image: url(img/fundo4.jpg);
-}
-
-.depo-fundo{
     background-image: url(img/fundo4.jpg);
 }
 
