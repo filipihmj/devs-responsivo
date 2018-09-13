@@ -1,11 +1,23 @@
 body{
     color: #FFF;
+    background-color: #fff;
+    hei
 }
 
 header{
     position: fixed;
     z-index: 100;
     width: 100%;
+}
+.btn{
+    background-color: #548cc3;
+}
+.btn-primary{
+    border-color: transparent;
+}
+.card{
+    border-color: #548cc3;
+    background-color: #548cc3;
 }
 .cabecalho{
     background-color: #000;
@@ -40,6 +52,7 @@ h3{
     font-family: "Cabin Sketch", sans-serif;
     text-align: center;
     padding: 10px;
+    margin-bottom: 0;
 }
 
 blockquote{
@@ -107,9 +120,16 @@ blockquote{
 #accordionInfo{
     padding-bottom: 20px;   
 }
-.btn-link{
-    font-weight: bold;
-    line-height: 0;
+
+.accordion .btn {
+    background: transparent;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    outline: none; 
+}
+.btn-primary{
+    border-color:
 }
 
 .blockquote{
