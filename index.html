@@ -212,12 +212,19 @@
                 <a href="https://twitter.com/softplanonline"><img src="img/twitter.png"></a>
             </div> 
     </footer>
-
     <script>
-        $( "carouselGaleria" ).click(function() {
-          $( this ).slideUp();
-        });
-        </script>
+    $(".carousel").swipe({
+
+        swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+      
+          if (direction == 'left') $(this).carousel('next');
+          if (direction == 'right') $(this).carousel('prev');
+      
+        },
+        allowPageScroll:"vertical"
+      
+      });
+    </script>
     <script src="jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
