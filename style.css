@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position: absolute;
     z-index: 100;
     width: 100%;
 }
@@ -25,11 +25,13 @@ header{
 #botao{
     float: right;
     margin-top: 10px;
-    margin-right: 5px;
+    margin-right: 3px;
 }
-
+#h2{
+    padding-top: 0.5rem;
+}
 #logo{
-    margin-left: -5px;
+    margin-left: -8px;
 }
 #h1-principal{
     padding-top: 70px;
@@ -110,6 +112,8 @@ blockquote{
 
 #cor-texto{
     color: #548cc3;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .blockquote-footer{
@@ -142,6 +146,9 @@ blockquote{
 .img-social{
     text-align: center;
 }
+#botao2{
+    margin-bottom: 20px;
+}
 .img-social img{
     padding-bottom: 20px;
     margin-top: -5px;
@@ -151,4 +158,32 @@ blockquote{
 }
 .carousel-control-prev-icon{
     margin-right: 30px;
+}
+
+.motivo h2,
+.benef h2{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.motivo p,
+.benef p{
+    text-align: center;
+    font-size: 14px;
+    padding: 0 20px;
+}
+#img-mot{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 1em #548cc3;
+}
+#img-bene{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bene-div{
+    margin-bottom: 20px;
 }
