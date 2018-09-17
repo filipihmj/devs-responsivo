@@ -7,6 +7,8 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+
+
 $(document).ready(function() {
   $("#carouselMotivos").on("swiperight", carouselRight);
   function carouselRight(e){
