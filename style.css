@@ -1,5 +1,6 @@
 body{
-    color: #FFF;
+    font-family: "Lato", sans-serif;
+    color: #58595b;
     background-color: #fff;
 }
 
@@ -9,17 +10,18 @@ header{
     width: 100%;
 }
 .btn{
-    background-color: #548cc3;
+    background-color: #005B95;
+    color: #5DA6D0;
 }
 .btn-primary{
     border-color: transparent;
 }
 .card{
-    border-color: #548cc3;
-    background-color: #548cc3;
+    border-color: #5DA6D0;
+    background-color: #fff;
 }
 .cabecalho{
-    background-color: #000;
+    background-color: #5DA6D0;
 }
 
 #botao{
@@ -39,18 +41,15 @@ header{
 h1{
     padding: 10px;
     font-size: 20px;
-    font-family: "Cabin Sketch", sans-serif;
     text-align: center;
     margin-bottom: 0;
 }
 h2{
     font-size: 16px;
-    font-family: "Cabin Sketch", sans-serif;
     text-align: center;
 }
 h3{
     font-size: 12px;
-    font-family: "Cabin Sketch", sans-serif;
     text-align: center;
     padding: 10px;
     margin-bottom: 0;
@@ -69,55 +68,17 @@ blockquote{
 #img-dep{
     margin: auto;
     margin-top: 20px;
-    box-shadow: 0 0 1em #548cc3;
-}
-
-.intro{
-    background-image: url(img/fundo1.png);
-}
-
-.info{
-    background-image: url(img/fundo2.jpg);
-}
-
-.info-fundo{
-    background-image: url(img/fundo2.jpg);
-}
-
-.motivo{
-    background-image: url(img/fundo3.png);
-}
-
-.galeria{
-    background-image: url(img/fundo5.jpg);
-}
-
-.benef{
-    background-image: url(img/fundo6.jpg);
-}
-
-.depo{
-    background-image: url(img/fundo4.jpg);
-}
-
-.social{
-    background-image: url(img/fundo3.png);
-}
-
-.rodape{
-    background-color: #333;  
-    padding-top: 10px;
-    padding-bottom: 5px;
+    box-shadow: 0 0 1em #5DA6D0;
 }
 
 #cor-texto{
-    color: #548cc3;
+    color: #5DA6D0;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .blockquote-footer{
-    color: #548cc3;
+    color: #5DA6D0;
 }
 
 #collapseThree{
@@ -134,9 +95,6 @@ blockquote{
     width: 100%;
     padding: 1rem;
     outline: none; 
-}
-.btn-primary{
-    border-color:
 }
 
 .imagens{
@@ -176,7 +134,7 @@ blockquote{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    box-shadow: 0 0 1em #548cc3;
+    box-shadow: 0 0 1em #5DA6D0;
 }
 #img-bene{
     margin: auto;
@@ -186,4 +144,9 @@ blockquote{
 
 .bene-div{
     margin-bottom: 20px;
+}
+
+.img-seta{
+    margin-left: 5px;
+    margin-top: 5px;
 }
