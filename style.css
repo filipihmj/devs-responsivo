@@ -120,6 +120,7 @@ blockquote{
 
 .motivo h2,
 .benef h2{
+    color: #005B95;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -134,7 +135,6 @@ blockquote{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    box-shadow: 0 0 1em #5DA6D0;
 }
 #img-bene{
     margin: auto;
