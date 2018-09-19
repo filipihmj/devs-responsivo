@@ -15,7 +15,9 @@ header{
     border-radius: 15px;;
     margin-bottom: 0.5rem;
 }
-
+.btn:focus{
+    box-shadow: none;
+}
 .card{
     border-color: #5DA6D0;
     background-color: #fff;
