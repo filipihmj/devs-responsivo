@@ -12,7 +12,6 @@ header{
 .btn{
     background-color: #fff;
     color: #5DA6D0;
-    border-color: #5DA6D0;
     border-radius: 15px;;
     margin-bottom: 0.5rem;
 }
@@ -20,6 +19,7 @@ header{
 .card{
     border-color: #5DA6D0;
     background-color: #fff;
+    border-radius: 15px;
 }
 .cabecalho{
     background-color: #5DA6D0;
