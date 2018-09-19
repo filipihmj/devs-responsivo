@@ -165,3 +165,11 @@ blockquote{
     margin-left: 5px;
     margin-top: 5px;
 }
+.separar::before {
+    background: #5DA6D0 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 20px auto;
+    width: 60%;
+}
