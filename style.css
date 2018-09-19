@@ -18,6 +18,9 @@ header{
 .btn:focus{
     box-shadow: none;
 }
+.btn-primary{
+    border-color: #5DA6D0; 
+}
 .card{
     border-color: #5DA6D0;
     background-color: #fff;
