@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 
@@ -91,91 +93,84 @@
 
     <section class="container-fluid motivo">
         <h1 class="separar">7 motivos para você<br>se candidatar <span class="cor-texto">(agora)</span> para essa vaga!</h1>
-        <div id="carouselMotivos" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselMotivos" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselMotivos" data-slide-to="1"></li>
-                    <li data-target="#carouselMotivos" data-slide-to="2"></li>
-                    <li data-target="#carouselMotivos" data-slide-to="3"></li>
-                    <li data-target="#carouselMotivos" data-slide-to="4"></li>
-                    <li data-target="#carouselMotivos" data-slide-to="5"></li>
-                    <li data-target="#carouselMotivos" data-slide-to="6"></li>
-                </ol>
-            <div class="carousel-inner imagens">
-                <div id="myElement" class="carousel-item active">
-                    <figure>
-                        <img class="d-block w-25 rounded" id="img-mot" src="img/motivo1.png" alt="Primeiro slide">
-                        <figcaption>
-                            <h2>Inovação na veia</h2>
-                            <p class="mb-0">Campanhas de intraempreendedorismo, ideação e desenvolvimento de soluções inovativas! Quer pensar fora da caixa? Aqui você pode!</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img class="d-block w-25 rounded" id="img-mot" src="img/motivo2.png" alt="Segundo slide">
-                        <figcaption>
-                            <h2>Universidade Softplan</h2>
-                            <p class="mb-0">Prepare-se para um mundo novo de conhecimento!  Aprenda novas competências e impulsione suas oportunidades para uma carreira surpreendente e promissora.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img class="d-block w-25 rounded" id="img-mot" src="img/motivo3.png" alt="Terceiro slide">
-                        <figcaption>
-                            <h2>Frameworks Atuais</h2>
-                            <p class="mb-0">Estamos constantemente atualizando as tecnologias de nossas soluções. Atualmente trabalhamos com React (frontend usado por Netflix, Airbnb, Nubank, Facebook, Salesforce, Spotify, Uber).</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img class="d-block w-25 rounded" id="img-mot" src="img/motivo4.png" alt="Quarto slide">
-                        <figcaption>
-                            <h2>Metodologias</h2>
-                            <p class="mb-0">Sempre nos perguntamos o que faz sentido em cada contexto. Tudo pode ser questionado, inclusive nossos processos e metodologias. Aqui sua opinião é importante!</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img class="d-block w-25 rounded" id="img-mot" src="img/motivo5.png" alt="Quinto slide">
-                        <figcaption>
-                            <h2>Grande Empresa</h2>
-                            <p class="mb-0">A Softplan é uma das maiores empresas de desenvolvimento de software do Sul do Brasil e reconhecida como uma das melhores empresas para se trabalhar pela GPTW, autoridade global no mundo do trabalho. Parceira de empresas sólidas de renome internacional como IBM, Oracle e Microsoft que agregam valor as nossas soluções.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img class="d-block w-25 rounded" id="img-mot" src="img/motivo6.png" alt="Sexto slide">
-                        <figcaption>
-                            <h2>Projetos Desafiadores</h2>
-                            <p class="mb-0">Nosso projetos visam a transformação digital em em nosso clientes. E você será um dos agentes da mudança sendo constantemente desafiado a criar soluções inovadoras e revolucionárias!</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="carousel-item">
-                    <figure>
-                        <img class="d-block w-25 rounded" id="img-mot" src="img/motivo7.png" alt="Sétimo slide">
-                        <figcaption>
-                            <h2>Seja Diferente, Faça a Diferença</h2>
-                            <p class="mb-0">Campanhas de intraempreendedorismo, ideação e desenvolvimento de soluções inovativas! Quer pensar fora da caixa? Aqui você pode!</p>
-                        </figcaption>
-                    </figure>
+        <div class="owl-carousel owl-theme owl-loaded owl-drag moving" data-enable-animation data-loop="true" data-animation-delay="0" data-aurotate="true" data-autorotation-speed="5000" data-column-padding="15px" data-desktop-cols="5" data-desktop-small-cols="4" data-mobile-cols="1">
+            <div class="owl-stage-outer">
+                <div class="owl-stage" style="transform: translate3d()">
+                    <div class="owl-item">
+                        <figure>
+                            <img class="d-block w-25 rounded" id="img-mot" src="img/motivo1.png" alt="Primeiro slide">
+                            <figcaption>
+                                <h2>Inovação na veia</h2>
+                                <p class="mb-0">Campanhas de intraempreendedorismo, ideação e desenvolvimento de soluções inovativas! Quer pensar fora da caixa? Aqui você pode!</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl-item">
+                        <figure>
+                            <img class="d-block w-25 rounded" id="img-mot" src="img/motivo2.png" alt="Segundo slide">
+                            <figcaption>
+                                <h2>Universidade Softplan</h2>
+                                <p class="mb-0">Prepare-se para um mundo novo de conhecimento!  Aprenda novas competências e impulsione suas oportunidades para uma carreira surpreendente e promissora.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl-item">
+                        <figure>
+                            <img class="d-block w-25 rounded" id="img-mot" src="img/motivo3.png" alt="Terceiro slide">
+                            <figcaption>
+                                <h2>Frameworks Atuais</h2>
+                                <p class="mb-0">Estamos constantemente atualizando as tecnologias de nossas soluções. Atualmente trabalhamos com React (frontend usado por Netflix, Airbnb, Nubank, Facebook, Salesforce, Spotify, Uber).</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl-item">
+                        <figure>
+                            <img class="d-block w-25 rounded" id="img-mot" src="img/motivo4.png" alt="Quarto slide">
+                            <figcaption>
+                                <h2>Metodologias</h2>
+                                <p class="mb-0">Sempre nos perguntamos o que faz sentido em cada contexto. Tudo pode ser questionado, inclusive nossos processos e metodologias. Aqui sua opinião é importante!</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl-item">
+                        <figure>
+                            <img class="d-block w-25 rounded" id="img-mot" src="img/motivo5.png" alt="Quinto slide">
+                            <figcaption>
+                                <h2>Grande Empresa</h2>
+                                <p class="mb-0">A Softplan é uma das maiores empresas de desenvolvimento de software do Sul do Brasil e reconhecida como uma das melhores empresas para se trabalhar pela GPTW, autoridade global no mundo do trabalho. Parceira de empresas sólidas de renome internacional como IBM, Oracle e Microsoft que agregam valor as nossas soluções.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl-item">
+                        <figure>
+                            <img class="d-block w-25 rounded" id="img-mot" src="img/motivo6.png" alt="Sexto slide">
+                            <figcaption>
+                                <h2>Projetos Desafiadores</h2>
+                                <p class="mb-0">Nosso projetos visam a transformação digital em em nosso clientes. E você será um dos agentes da mudança sendo constantemente desafiado a criar soluções inovadoras e revolucionárias!</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="owl-item">
+                        <figure>
+                            <img class="d-block w-25 rounded" id="img-mot" src="img/motivo7.png" alt="Sétimo slide">
+                            <figcaption>
+                                <h2>Seja Diferente, Faça a Diferença</h2>
+                                <p class="mb-0">Campanhas de intraempreendedorismo, ideação e desenvolvimento de soluções inovativas! Quer pensar fora da caixa? Aqui você pode!</p>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselMotivos" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselMotivos" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="owl-nav">
+                <div class="owl-prev"></div>
+                <div class="owl-next"></div>
+            </div>
+            <div class="owl-dots">
+                <div class="owl-dot active"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+            </div>
         </div>
-        
     </section>
 
     <section class="container-fluid galeria">
@@ -360,7 +355,7 @@
                         <img class="d-block w-50 rounded-circle" id="img-dep" src="img/rafael_andrade.jpeg" alt="Segundo slide">
                         <figcaption>
                             <blockquote class="blockquote text-center">
-                                <p class="mb-0">"Tenho orgulho de fazer parte do time da softplan! Uma das maiores empresas de TI do brasil e que está constantemente buscando a inovação. Dentro dela tenho certeza que estou fazendo a diferença na vida das pessoas. Aqui dentro me sinto desafiado e motivado para melhorar e evoluir sempre. Nossa equipe é top!"</p>
+                                <p class="mb-0">"Tenho orgulho de fazer parte do time da softplan! Uma das maiores empresas de TI do Brasil e que está constantemente buscando a inovação. Dentro dela tenho certeza que estou fazendo a diferença na vida das pessoas. Aqui dentro me sinto desafiado e motivado para melhorar e evoluir sempre. Nossa equipe é top!"</p>
                                 <footer class="blockquote-footer"><cite title="Source Title">Rafael Andrade<br>Solutions Architect</cite></footer>
                             </blockquote>
                         </figcaption>
@@ -410,11 +405,9 @@
             </div> 
     </footer>
 
-    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="principal.js"></script>
+    <script src="owlcarousel/docs/assets/vendors/jquery.min.js"></script>
+    <script src="owlcarousel/dist/owl.carousel.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="swipe.js"></script>
-    
 </body>
 </html>
