@@ -31,10 +31,15 @@ header{
 }
 
 #botao{
-    float: right;
-    margin-top: 0.5rem;
-    margin-right: 0.5rem;
+    position: relative;
+    background-color: #005B95;
+    color: #fff;
+    box-shadow: 0 0 1em #5DA6D0;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
 }
+
 #h2{
     padding-top: 0.5rem;
     
