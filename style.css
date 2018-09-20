@@ -124,6 +124,9 @@ blockquote{
 }
 #botao2{
     margin-bottom: 20px;
+    background-color: #005B95;
+    color: #fff;
+    box-shadow: 0 0 1em #5DA6D0;
 }
 .img-social img{
     padding-bottom: 20px;
