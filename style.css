@@ -28,25 +28,24 @@ header{
 }
 .cabecalho{
     background-color: #5DA6D0;
+    text-align: center;
 }
 
 #botao{
-    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
     background-color: #005B95;
     color: #fff;
     box-shadow: 0 0 1em #5DA6D0;
     text-align: center;
-    margin: 10px;
-    margin-bottom: 20px;
 }
-
 #h2{
     padding-top: 0.5rem;
     
 }
 #logo{
     margin-top: 0.6rem;
-    margin-left: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 #h1-principal{
     padding-top: 70px;
@@ -54,6 +53,7 @@ header{
 }
 h1{
     padding: 10px;
+    padding-bottom: 0.1rem;
     font-size: 20px;
     color: #005B95;
     text-align: center;
@@ -179,11 +179,12 @@ blockquote{
     content: "";
     display: block;
     height: 3px;
-    margin: 20px auto;
-    width: 60%;
+    margin: 0.6rem auto;
+    margin-bottom: 1rem;
+    width: 50%;
 }
 
-#owl-teste .item figure{
+.owl-touch .item figure{
     display: block;
     width: 100%;
     height: auto;
