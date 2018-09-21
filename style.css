@@ -191,6 +191,7 @@ blockquote{
     width: 100%;
     height: auto;
 }
+
 iframe{
     width: 560px;
     height: 315px;
@@ -206,10 +207,6 @@ iframe{
     }
     h1{
         font-size: 40px;
-    }
-    #h1-principal{
-        width: 50%;
-        margin-left: 26.5%;
     }
     h2{
         font-size: 22px;
@@ -231,6 +228,9 @@ iframe{
     .embed-responsive{
         width: 800px;
         height: 455px;
-        left: 26.5%;
+        margin: 0 400px;
+    }
+    #intro{
+        text-align: center;
     }
 }
