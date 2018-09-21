@@ -12,8 +12,9 @@ header{
 .btn{
     background-color: #fff;
     color: #5DA6D0;
-    border-radius: 15px;;
+    border-radius: 30px;
     margin-bottom: 0.5rem;
+    text-transform: uppercase;
 }
 .btn:focus{
     box-shadow: none;
@@ -38,6 +39,7 @@ header{
     color: #fff;
     box-shadow: 0 0 1em #5DA6D0;
     text-align: center;
+    padding: 15px;
 }
 #h2{
     padding-top: 0.5rem;
@@ -131,6 +133,7 @@ blockquote{
     background-color: #005B95;
     color: #fff;
     box-shadow: 0 0 1em #5DA6D0;
+    padding: 10px;
 }
 .img-social img{
     padding-bottom: 20px;
@@ -173,7 +176,7 @@ blockquote{
     margin-left: 5px;
     margin-top: 5px;
 }
-.separar::before {
+.separar::after {
     background: #5DA6D0 none repeat scroll 0 0;
     content: "";
     display: block;
@@ -187,4 +190,47 @@ blockquote{
     display: block;
     width: 100%;
     height: auto;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+    border-top-width: 0px; 
+    border-right-width: 0px;
+    border-bottom-width: 0px; 
+    border-left-width: 0px
+}
+@media(min-width: 1200px){
+    .footer-responsivo{
+        width: 33%;
+        float: left;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #h1-principal{
+        width: 50%;
+        margin-left: 26.5%;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .card{
+        margin: 0 300px;
+    }
+    .separar{
+        padding-top: 100px;
+    }
+    iframe{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    .embed-responsive{
+        width: 800px;
+        height: 455px;
+        left: 26.5%;
+    }
 }
