@@ -198,14 +198,41 @@ iframe{
     border-top-width: 0px; 
     border-right-width: 0px;
     border-bottom-width: 0px; 
-    border-left-width: 0px
+    border-left-width: 0px;
+}
+.col-md-4, .col-lg-3{
+    width: auto;
+}
+.row{
+    padding-left: 10px;
+}
+@media(min-width: 340px){
+    .row{
+        padding-left: 40px;
+    }   
+}
+@media(min-width: 410px){
+    .row{
+        padding-left: 60px;
+    }   
 }
 @media(min-width: 768px){
     .card{
         margin: 0 200px;
     }
+    .col-md-4{
+        max-width: none;
+    }
+    .row{
+        padding-left: 40px;
+    }  
 }
 @media(min-width: 1000px){
+    .row{
+        padding-left: 0;
+    }
+}
+@media(min-width: 1030px){
     .footer-responsivo{
         width: 33%;
         float: left;
