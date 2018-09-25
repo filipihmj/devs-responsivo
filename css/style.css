@@ -9,6 +9,18 @@ header{
     z-index: 100;
     width: 100%;
 }
+#botao-vaga-center{
+    text-align: center;
+}
+#botao-vaga-inicio{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #005B95;
+    color: #fff;
+    box-shadow: 0 0 1em #5DA6D0;
+    text-align: center;
+    padding: 15px;
+}
 .btn{
     background-color: #fff;
     color: #5DA6D0;
@@ -31,16 +43,6 @@ header{
     background-color: #5DA6D0;
     text-align: center;
 }
-
-#botao{
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    background-color: #005B95;
-    color: #fff;
-    box-shadow: 0 0 1em #5DA6D0;
-    text-align: center;
-    padding: 15px;
-}
 #h2{
     padding-top: 0.5rem;
     
@@ -49,7 +51,7 @@ header{
     margin-top: 0.6rem;
     margin-bottom: 0.6rem;
 }
-#h1-principal{
+#titulo-principal{
     padding-top: 70px;
     text-transform: uppercase;
 }
@@ -82,20 +84,20 @@ blockquote{
 }
 
 
-#img-dep{
+.foto-depoimento{
     margin: auto;
     margin-top: 20px;
     box-shadow: 0 0 1em #5DA6D0;
 }
 
-#cor-texto{
+#marca-texto{
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     background-color: #5DA6D0;
     padding: 0 0.25rem;
 }
-.cor-texto{
+.destaque-texto{
     color: #5DA6D0;
     text-transform: uppercase;
     font-weight: bold;
@@ -121,58 +123,40 @@ blockquote{
     outline: none; 
 }
 
-.imagens{
-    padding-bottom: 20px;
-}
-
-.img-social{
+.icon-social{
     text-align: center;
 }
-#botao2{
+#botao-vaga-final{
     margin-bottom: 20px;
     background-color: #005B95;
     color: #fff;
     box-shadow: 0 0 1em #5DA6D0;
     padding: 10px;
 }
-.img-social img{
+.icon-social img{
     padding-bottom: 20px;
     margin-top: -5px;
 }
-.carousel-control-next-icon{
-    margin-left: 30px;
-    color: #005B95;
-}
-.carousel-control-prev-icon{
-    margin-right: 30px;
-    color: #005B95;
-}
-
-.motivo h2,
-.benef h2{
+.container-motivo h2,
+.container-beneficio h2{
     color: #005B95;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.motivo p,
-.benef p{
+.container-motivo p,
+.container-beneficio p{
     text-align: center;
     font-size: 14px;
     padding: 0 20px;
 }
-#img-mot,
-#img-bene{
+.icon-motivo,
+.icon-beneficio{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
-.bene-div{
-    margin-bottom: 20px;
-}
-
-.img-seta{
+.card-seta-svg{
     margin-left: 5px;
     margin-top: 5px;
 }
@@ -186,12 +170,6 @@ blockquote{
     width: 50%;
 }
 
-.owl-touch .item figure{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 iframe{
     width: 560px;
     height: 315px;
@@ -200,19 +178,16 @@ iframe{
     border-bottom-width: 0px; 
     border-left-width: 0px;
 }
-.card #collapseThree .col-lg-3 {
+.card-item{
     display: flex;
     justify-content: center;
 }
 .card{
    margin-bottom: 16px;
-} 
-/*.social{
-    background-color: #BBCAD6;
-}*/
+}
 
 @media(min-width: 1030px){
-    .footer-responsivo{
+    .footer-desktop{
         width: 33%;
         float: left;
     }
@@ -244,12 +219,7 @@ iframe{
         display: block;
         clear: both;
     }
-    #botao{
+    #botao-vaga-inicio{
         padding: 15px 50px;
     }
-    /*#principal{
-        width: 60%;
-        position: relative;
-        left: 20%;
-    }*/
 }
